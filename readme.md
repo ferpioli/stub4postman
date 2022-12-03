@@ -22,7 +22,8 @@ http://0.0.0.0:8889/status/
 
 - É possivel copiar todos os response body das requiçoes encadeas no postman rodando o comando 
 
-`node  writeToDisk.js `
+`node  generateBody.js `
 
-Para execução do teste é necessário executar a linha conforme descrição abaixo:
-newman run collection_name.postman_collection.json -e environment_name.postman_environment.json -d cenarios.json --
+## Executando automação com os arquivo de stubby gerados
+
+`node testWithStub.js`
