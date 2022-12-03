@@ -1,0 +1,36 @@
+-  request:
+    url: /ws/31275000/json/
+    method: GET
+   response:
+    status: 200
+    headers: 
+      content-type: application/json
+    file: results/getCep-mineirao.json
+    
+-  request:
+    url: /ws/20511050/json/
+    method: GET
+   response:
+    status: 200
+    headers: 
+      content-type: application/json
+    file: results/getCep-maracana.json
+
+-  request:
+    url: /ws/01001000/json/
+    method: GET
+   response:
+    status: 200
+    headers: 
+      content-type: application/json
+    file: results/getCep-pracaDaSe.json
+
+-  request:
+    url: /ws/54710000/json/
+    method: GET
+   response:
+    status: 200
+    headers: 
+      content-type: application/json
+    file: results/getCep-arenaPernambuco.json
+
